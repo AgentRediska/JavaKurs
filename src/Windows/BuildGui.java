@@ -97,15 +97,6 @@ public class BuildGui {
         ListCategories.add(scrollerList);
         //Список
 
-        //GIFKA пусть будет
-        JFrame GifFrame = new JFrame("Kitty");  //создали
-        GifPanel gifPanel= new GifPanel();
-        GifFrame.getContentPane().add(BorderLayout.CENTER, gifPanel);
-        GifFrame.setBounds(1100, 250, 280, 500); //размер и позиция окна
-        //GifFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //возможность закрытия
-        GifFrame.setVisible(true);
-        gifPanel.repaint();
-        //GIFKA
 
         //Визуализация вкл
         theFrame.add(BorderLayout.CENTER, ListCategories); //добавили панель на окно
